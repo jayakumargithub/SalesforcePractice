@@ -4,4 +4,5 @@
         scripts="/resource/leaflet/leaflet.js"
         afterScriptsLoaded="{!c.jsLoaded}" />
     <div id="map"></div>
+    <aura:handler event="c:AccountsLoaded" action="{!c.accountsLoaded}"/>
 </aura:component>
